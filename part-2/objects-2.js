@@ -55,3 +55,29 @@ console.log(Object.entries(youtubeUser));
 console.log(youtubeUser.hasOwnProperty('isLoggedIn'));
 
 // =======================================================================
+
+
+const course = {
+  coursename: "js",
+  price: "999",
+  courseInstructor: "anishka"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//   "name": "anishka",
+//   "coursename": "js",
+//   "price": "free"
+// }
+
+[
+  {},
+  {},
+  {}
+]
