@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  height: 30px;
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #999;
+}
+
+
+nav a{
+  background-color: #fff;
+  padding: 10px 30px;
+  color: #212121;
+  text-decoration: none;
+  border: 1px solid #212121;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.canvas{
+  width: 100%;
+  min-height: calc(100vh - 75px);
+  background-color: #707070;
+  margin: 20px auto;
+  padding: 25px 30px;
+  text-align: center;
+}
+
+.canvas h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+
+form p {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+form label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+
+form input {
+  width: 150px;
+  height: 28px;
+  font-size: 16px;
+  padding: 3px;
+}
+
+
+button {
+  width: 150px;
+  padding: 3px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+#results {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* BMI Weight Guide */
+#weight-guide {
+  width: 360px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#weight-guide h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#weight-guide p {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
